@@ -8,3 +8,9 @@ jobs:
         run: echo "Hello World"
       - name: Print goodbye
         run: echo "baybayy"
+      - name: run 2 echo command together
+        run: | 
+          echo "first output"
+          echo "second output"
+
+            
